@@ -15,8 +15,8 @@ puts backslash_cat
 puts fat_cat
 
 thin_cat = '''
-Now to test sing triple quotes.
-What a tabby_cat? #{tabby_cat}.
+Now to test single triple quotes:
+What is a tabby_cat? #{tabby_cat}.
 '''
 
 puts thin_cat
