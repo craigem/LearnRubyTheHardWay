@@ -13,3 +13,10 @@ puts tabby_cat
 puts persian_cat
 puts backslash_cat
 puts fat_cat
+
+thin_cat = '''
+Now to test sing triple quotes.
+What a tabby_cat? #{tabby_cat}.
+'''
+
+puts thin_cat
