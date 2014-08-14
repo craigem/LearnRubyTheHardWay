@@ -1,0 +1,9 @@
++ plus - addition
+- minus - subtraction
+/ slash - division
+* asterisk - multiplication
+% percent - modulo, remainder of the division of right hand side by the left.
+< less-than - Returns true if first operand is less than second operand. Otherwise returns false
+> greater-thana - Returns true if first operand is greater than second operand. Otherwise returns false.
+<= less-than-equal - Returns true if first operand is less than or equal to second operand. Otherwise returns false.
+>= greater-than-equal - Returns true if first operand is greater than or equal to second operand. Otherwise returns false.
