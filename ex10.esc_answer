@@ -1,0 +1,14 @@
+\\  backslash ()
+\'  single-quote (')
+\"  double-quote (")
+\a  ASCII bell (BEL)
+\b  ASCII backspace (BS)
+\f  ASCII formfeed (FF)
+\n  ASCII linefeed (LF)
+\r ASCII    Carriage Return (CR)
+\n ASCII    Horizontal Tab (TAB)
+\uxxxx      16-bit hex Unicode character
+\Uxxxxxxxx  32-bit hex Unicode character
+\v      ASCII vertical tab
+\ooo    Character with octal value ooo
+\xhh    Character with hex value hh
