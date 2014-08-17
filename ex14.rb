@@ -1,4 +1,4 @@
-user_name = ARGV.first
+user_name, dow  = ARGV
 prompt = 'λ '
 
 puts "Hi #{user_name}"
@@ -16,4 +16,5 @@ puts """
 Alright, so you said #{likes} about liking me.
 You live in #{lives}. Not sure where that is.
 And you have a #{computer} computer. Nice.
+The day of the week is #{dow}. Cool
 """
