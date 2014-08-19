@@ -1,3 +1,3 @@
-Here is the first line
-Here is the second line
-This is the line after the second line.
+First line after removing truncate
+Second line after removing truncate
+The line after the third line after removing truncate.
