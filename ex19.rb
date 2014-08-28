@@ -38,3 +38,16 @@ cheese_and_crackers(10 + 20, 5 + 6)
 puts "And we can combine the two, variables and math:"
 # Calls the function and sets the arguments to the value of the equations
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+# 3 Write at least one more function of your own design, and run it 10 different
+# ways.
+
+def my_own_design(pants, style, reggies )
+  puts "\nIt appears you #{pants} wearing pants. Good on you!"
+  puts "They looks like #{style}. Nice work. You carry it off."
+  puts "Oh, you #{reggies} wearing reggies. That's possibly too much information."
+  puts "You're going to stop traffic."
+end
+
+puts "\n1. Calling it directly:"
+my_own_design("are", "footy shorts", "are not")
