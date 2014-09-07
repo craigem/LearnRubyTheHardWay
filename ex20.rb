@@ -25,17 +25,26 @@ puts "First let's print the whole file:\n"
 # Calls function print_all
 print_all(current_file)
 
+# Prints the line to STDOUT
 puts "Now let's rewind, kind of like a tape."
 
+# Rewinds reading to the start of the file
 rewind(current_file)
 
+# Prints the line to STDOUT
 puts "Let's print three lines:"
 
+# Sets the value to 1
 current_line = 1
+# runs the function with the specified arguments
 print_a_line(current_line, current_file)
 
+# Sets the value to itself plus 1
 current_line = current_line + 1
+# runs the function with the specified arguments
 print_a_line(current_line, current_file)
 
+# Sets the value to itself plus 1
 current_line = current_line + 1
+# runs the function with the specified arguments
 print_a_line(current_line, current_file)
