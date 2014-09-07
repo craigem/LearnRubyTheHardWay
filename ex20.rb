@@ -37,14 +37,14 @@ puts "Let's print three lines:"
 # Sets the value to 1
 current_line = 1
 # runs the function with the specified arguments
-print_a_line(current_line, current_file)
+print_a_line(current_line, current_file) # current_line is 1
 
 # Sets the value to itself plus 1
 current_line = current_line + 1
 # runs the function with the specified arguments
-print_a_line(current_line, current_file)
+print_a_line(current_line, current_file) # current_line is 2
 
 # Sets the value to itself plus 1
 current_line = current_line + 1
 # runs the function with the specified arguments
-print_a_line(current_line, current_file)
+print_a_line(current_line, current_file) # current_line is 3
