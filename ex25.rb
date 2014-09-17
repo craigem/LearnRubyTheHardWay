@@ -13,13 +13,13 @@ module Ex25
 
   # Prints the first word after popping it off.
   def Ex25.print_first_word(words)
-    word  = words.pop(0)
+    word  = words.shift
     puts word
   end
 
   # Prints the last word after popping it off.
   def Ex25.print_last_word(words)
-    word  = words.pop(0)
+    word  = words.pop
     puts word
   end
 
@@ -38,9 +38,9 @@ module Ex25
 
   # Sorts the words then prints the first and last one
   def Ex25.print_first_and_last_sorted(sentence)
-    words = Ex25.sort_sentences(sentence)
+    words = Ex25.sort_sentence(sentence)
     Ex25.print_first_word(words)
-    Ex25.print_last_word(word)
+    Ex25.print_last_word(words)
   end
 
 end
