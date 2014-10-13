@@ -3,7 +3,7 @@ types_of_people = 10
 # Set the value of x to include the type of people
 x = "There are #{types_of_people} types of people."
 # Set the value of binary
-binary = "binary"
+binary = 'binary'
 # Set the value of do-not
 do_not = "don't"
 # Set the value of y to include binary an dd_not
@@ -28,9 +28,9 @@ joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
 puts joke_evaluation
 
 # Set the value of w
-w = "This is the left side of..."
+w = 'This is the left side of...'
 # Set the value of e
-e = "a string with a right side."
+e = 'a string with a right side.'
 
 # Print the values of w and e to STDOUT
 puts w + e
