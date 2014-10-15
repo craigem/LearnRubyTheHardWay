@@ -1,5 +1,6 @@
 puts "Let's practive everything."
-puts 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
+puts 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t \
+  tabs.'
 
 poem = <<END
 \tThe lovely world
@@ -10,10 +11,9 @@ and requires an explanation
 \n\t\twhere there is none.
 END
 
-puts "--------------"
+puts '--------------'
 puts poem
-puts "--------------"
-
+puts '--------------'
 
 five = 10 - 2 + 3 - 6
 puts "This should be five: #{five}"
@@ -25,11 +25,10 @@ def secret_formula(started)
   return jelly_beans, jars, crates
 end
 
-
-start_point = 10000
+start_point = 10_000
 beans, jars, crates = secret_formula(start_point)
 
 puts "With a starting point of: #{start_point}"
 puts "We'd have #{beans} beans, #{jars} jars, and #{crates} crates."
 
-start_point = start_point / 10
+start_point / 10
