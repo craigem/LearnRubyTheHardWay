@@ -40,11 +40,11 @@ current_line = 1
 print_a_line(current_line, current_file) # current_line is 1
 
 # Sets the value to itself plus 1
-current_line = current_line + 1
+current_line += 1
 # runs the function with the specified arguments
 print_a_line(current_line, current_file) # current_line is 2
 
 # Sets the value to itself plus 1
-current_line = current_line + 1
+current_line += 1
 # runs the function with the specified arguments
 print_a_line(current_line, current_file) # current_line is 3
