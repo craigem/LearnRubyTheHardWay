@@ -1,4 +1,4 @@
-the_count = [1 ,2 ,3, 4, 5]
+the_count = [1, 2, 3, 4, 5]
 fruits = ['apples', 'oranges', 'pears', 'apricots']
 change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
 
@@ -18,7 +18,7 @@ end
 # also we can go through mixed lists too
 # note this is yet another style, exactly like above
 # but a different syntax (way to write it)
-change.each {|i| puts "I got #{i}" }
+change.each { |i| puts "I got #{i}" }
 
 # we can also build lists, first start with an empty one
 elements = []
@@ -31,4 +31,4 @@ elements = []
 end
 
 # now we can print them out too
-elements.each {|i| puts "Element was: #{i}" }
+elements.each { |i| puts "Element was: #{i}" }
