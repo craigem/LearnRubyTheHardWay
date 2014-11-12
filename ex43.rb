@@ -1,5 +1,7 @@
 class Scene
   def enter()
+    puts "This scene is not yet configured. Subclass it and implement enter()"
+    exit(1)
   end
 end
 
@@ -7,13 +9,25 @@ end
 class Engine
 
   def initialize(scene_map)
+    @scene_map = scene_map
   end
 
   def play()
+    current_scene = @scene_map.opening_scene()
+    last_scene = @scene_map.next_scene('finished')
+
+    while current_scene != last_scene
+      next_scene = current_scene.enter()
+      current_scene = @scene_map.next_scene(next_scene_name)
+    end
+
+    # be sure to print out the last scene
   end
 end
 
 class Death < Scene
+  @@quips = [
+    "You died. you kinda suck at this.",
 
   def enter()
   end
