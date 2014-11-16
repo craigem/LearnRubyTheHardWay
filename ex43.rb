@@ -41,6 +41,7 @@ end
 class CentralCorridor < Scene
 
   def enter()
+    puts "The Gothons of Planet Percal #25 have invaded your ship and destroyed"
   end
 end
 
